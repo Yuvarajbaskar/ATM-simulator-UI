@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ATM Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="atm">
+    <h2>ATM Simulator</h2>
+    <div id="loginScreen">
+      <p>Enter PIN:</p>
+      <input type="password" id="pinInput" maxlength="4" />
+      <button onclick="login()">Login</button>
+      <p id="loginError" class="error"></p>
+    </div>
+
+    <div id="menuScreen" style="display:none;">
+      <p>Welcome!</p>
+      <button onclick="showBalance()">Check Balance</button>
+      <button onclick="deposit()">Deposit</button>
+      <button onclick="withdraw()">Withdraw</button>
+      <button onclick="logout()">Exit</button>
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://ww&cd=vfe&op') no-repeat center center/cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.atm {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid #d9e3f0;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px 5px;
+  font-weight: bold;
+  border: none;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #00aaff);
+}
+
+input {
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+#message {
+  color: #2c3e50;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+}
